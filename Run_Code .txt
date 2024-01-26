@@ -1,0 +1,6 @@
+1. Open Terminal
+
+Run : g++ {File_name}.cpp
+Then, .\a.exe
+
+Formating : Alt + Shift + F
