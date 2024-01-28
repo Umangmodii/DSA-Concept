@@ -20,7 +20,7 @@ int linear_search(int arr[], int n, int val)
     {
         if (arr[i] == val)
         {
-            return i+1;
+            return i+1; 
         }
 
         return -1;
