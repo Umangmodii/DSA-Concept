@@ -59,6 +59,7 @@ int main()
     {
         cout << "\nElement is present at " << result << " position of array";
     }
+    
 
     Binary_search(Array, start, end, value);
 
