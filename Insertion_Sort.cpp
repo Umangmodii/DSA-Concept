@@ -11,7 +11,7 @@ void base(int arr[], int n)
     }
 }
 
-// Selection Sort Case
+// Insertion Sort Case
 void insertion_sort(int arr[], int n)
 {
     for (int i = 0; i < n; i++)
