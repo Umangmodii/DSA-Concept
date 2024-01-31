@@ -6,7 +6,10 @@
 
 using namespace std;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 75db06f (commit)
 int main()
 {
     unordered_map<int, string> u1;
