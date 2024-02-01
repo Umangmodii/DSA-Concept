@@ -63,16 +63,29 @@ void printLevelOrder(Node *root)
         cout << temp->data << " ";
         q.pop();
 
-        if (root->left)
+        if (root == NULL)
         {
-            // When User Enter the Left Side Elements
-            q.push(temp->left);
-        }
+            cout << endl;
 
-        if (root->right)
-        {
-            // When User Enter the Right side Elements
-            q.push(temp->right);
+            if (!q.empty())
+            {
+                q.push(NULL);
+            }
+
+            else
+            {
+                if (root->left)
+                {
+                    // When User Enter the Left Side Elements
+                    q.push(temp->left);
+                }
+
+                if (root->right)
+                {
+                    // When User Enter the Right side Elements
+                    q.push(temp->right);
+                }
+            }
         }
     }
 }
@@ -132,6 +145,7 @@ void postorder(Node *root)
 }
 
 int main()
+
 {
     /*  Creating the binary tree is done in following way. */
 
@@ -146,17 +160,25 @@ int main()
     // Printing level order traversal of binary tree
     printLevelOrder(root);
 
+    cout << "\n";
+
     // Preorder Traversal using Iterative method
     cout << "Preorder Traversal is : ";
     preorder(root);
+
+    cout << "\n";
 
     // Inorder Traversal using Iterative method
     cout << "Inorder Traversal is : ";
     inorder(root);
 
+    cout << "\n";
+
     // Inorder Traversal using Iterative method
     cout << "Postorder Traversal is : ";
     postorder(root);
+
+    cout << "\n";
 
     return 0;
 }
