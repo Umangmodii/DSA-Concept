@@ -7,9 +7,12 @@
 using namespace std;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 75db06f (commit)
+=======
+>>>>>>> 75db06f9228738ffa91d9cb8287307b7874f1177
 int main()
 {
     unordered_map<int, string> u1;
