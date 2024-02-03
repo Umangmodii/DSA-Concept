@@ -28,7 +28,7 @@ public:
     // Push Operation
     void enqueue(int data)
     {
-        if (data == size)
+        if (rear == data)
         {
             cout << "Queue is Underflow";
         }
