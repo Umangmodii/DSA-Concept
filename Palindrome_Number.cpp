@@ -21,7 +21,7 @@ int Check_Palindrome(string str, int i, int j)
 
 int main()
 {
-    string name = "Bookoob";
+    string name = "BookooB";
     cout << "\n";
 
     int Palindrome = Check_Palindrome(name,0,name.length()-1);
