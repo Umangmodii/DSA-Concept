@@ -13,6 +13,7 @@ int main()
 
     cout << "Enter the Elements : ";
 
+    // Total Size of of Loop
     for (int i = 0; i < size; i++)
     {
         cin >> array[i];
@@ -27,7 +28,7 @@ int main()
         {
             if (array[i] == array[j]) // When equal with i and j then Print it.
             {
-                cout << "The Duplicate Array is : " << array[i];
+                cout << "The Duplicate Array is : " << array[i] << endl;
                 break;
             }
         }
