@@ -38,11 +38,15 @@ int main()
 
     cout << "\n";
 
-    // First Element first
+    // First Element front() Methods
 
     v.front();
 
     cout << "The Size is " << v.size();
+
+    // last Element 
+
+    v
 
     return 0;
 }
